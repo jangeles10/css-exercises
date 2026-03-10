@@ -1,1 +1,16 @@
 /* Add CSS Styling */
+
+.click-negro,
+.click-amarillo {
+    font-size: 28px;
+    font-family: Helvetica, "Times New Roman" , sans-serif;
+}
+
+.click-negro {
+    background-color: black;
+    color: white;
+}
+
+.click-amarillo {
+    background-color: yellow;
+}

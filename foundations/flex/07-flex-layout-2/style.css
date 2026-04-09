@@ -44,7 +44,6 @@ body {
 
 .sidebar {
   display: flex;
-  text-align: start;
 }
 
 ul {
@@ -57,4 +56,25 @@ ul {
 a {
   color: white;
   text-decoration: none;
+}
+
+.cards {
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+padding: 50px;
+margin-right: 200px;
+flex: 1;
+}
+
+.card {
+  margin: 20px;
+  flex: 1 1 300px;
+  padding: 10px;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
